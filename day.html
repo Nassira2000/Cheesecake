@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title></title>
+	<h1 id="day"></h1>
 	<script type="text/javascript">
 		var day;
       switch(new Date().getDay()){
@@ -27,8 +28,8 @@
       	day = 'Saturday';
       	break;
       }
-      document.getElementById('day').innerHTML = "<h1> Today is" + day+ ".<h1>";
-      document.getElementById('day').style.color = "orange";
+      document.getElementById('day').innerHTML = "<h1>Today is " + day +".</h1>";
+      document.getElementById('day').style.color = "red";
 	</script>
 </head>
 <body>

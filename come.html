@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1 id='display'></h1>
+	
+
+	<script>
+		var count = 1;
+		while (count <= 100){
+			console.log(count);
+			if (count % 3 == 0 && count % 5 == 0 )
+			console.log(count + " is fizzbuzz");
+			document.getElementById('display').
+			innerHTML += count + "is fizzbuzz<br>"
+
+			if (count % 5 == 0)
+				console.log(count + " is buzz");
+			    document.getElementById('display').
+			    innerHTML += count + "is buzz<br>"
+			
+
+			count++;
+
+		}
+
+
+		
+		
+			
+	</script>
+
+</body>
+</html>
